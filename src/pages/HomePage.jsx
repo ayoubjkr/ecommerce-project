@@ -4,7 +4,7 @@ import { useEffect,useState } from 'react'
 import { Header } from '../components/Header'
 import './HomePage.css'
 import CheckMark from './../assets/images/icons/checkmark.png'
-import {formatMoney} from './../utils/money'
+import { formatMoney } from './../utils/money'
 
 
 export function HomePage({ cart }) {
