@@ -16,7 +16,7 @@ export function HomePage({ cart }) {
         const getHomeData = async ()=>{
 
             const response = await axios.get('/api/products')
-            setProducts(response.data)
+            setProducts(response.data) 
         }
 
         getHomeData()

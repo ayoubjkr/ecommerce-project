@@ -30,7 +30,7 @@ export function CartItemDetailGrid({ cartItem, deliveryOptions }) {
             <deliveryOptions
                 deliveryOptions={deliveryOptions}
                 cartItem={cartItem}
-            />
+            /> 
         </div>
     )
 }
