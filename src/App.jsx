@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react'
 import { HomePage } from './pages/home/HomePage'
 import { CheckoutPage } from './pages/checkout/CheckoutPage'
 import { OrdersPage} from './pages/order/OrdersPage'
-import { TrackingPage } from './pages/TrackingPage'
+import { TrackingPage } from './pages/tracking/TrackingPage'
 import { NotFoundPage } from "./pages/NotFoundPage"
 import './App.css'
 
